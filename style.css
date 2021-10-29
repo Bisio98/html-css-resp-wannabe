@@ -73,6 +73,27 @@ img {
 }
 
 
+
+
+/* TABLET */
+@media screen and (max-width:1020px) {
+  .row{
+    width: 100%;
+  }
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right{
+    float: none;
+    width: 100%;
+  }
+  .container.grey{
+    background-color: #f9f9f9 !important;
+  }
+  img{
+    height: 20vw;
+    width: auto;
+  }
+}
+
 /* CELL */
 @media screen and (max-width:420px) {
   .row{
@@ -97,24 +118,5 @@ img {
   }
   #why img{
     padding: 5px;
-  }
-}
-
-/* TABLET */
-@media screen and (max-width:1020px) {
-  .row{
-    width: 100%;
-  }
-
-  #steps .row>.left, #steps .row>.central, #steps .row>.right{
-    float: none;
-    width: 100%;
-  }
-  .container.grey{
-    background-color: #f9f9f9 !important;
-  }
-  img{
-    height: 20vw;
-    width: auto;
   }
 }
